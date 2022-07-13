@@ -1,0 +1,135 @@
+body {
+  background-color: rgba(255, 106, 149, 0.1);
+  height: 100vh;
+  display: flex;
+}
+
+.main-card {
+  margin: auto;
+  background-color: #FFFFFF;
+  width: 583px;
+  height: auto;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-header {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.user-picture {
+  width: 84px;
+  height: auto;
+  border-radius: 84px;
+  margin: 0px;
+  border: solid white 8px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.user-info {
+  margin: 0px auto 0px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0px;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0px 0px 0px;
+}
+
+.followg-button {
+  width: 146px;
+  height: 54px;
+  background-color: #202142;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 0px 0px 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.followg-button:hover {
+  cursor: pointer;
+}
+
+svg {
+  margin-right: 10px;
+}
+
+.cards-area {
+  width: 100%;
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-picture {
+  width: 164px;
+  height: 123px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.user-main-card {
+  margin: auto;
+  background-color: #FFFFFF;
+  width: 1100px;
+  height: auto;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-info-area {
+  margin: 0px auto 0px 20px;
+  height: 100%;
+}
+
+.following-button {
+  width: 146px;
+  height: 54px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  border: 1px solid #A4A4CB;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.following-button:hover {
+  cursor: pointer;
+}
+
+.user-cards-area {
+  width: 100%;
+  margin: 0px 0px 0px 140px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.user-portfolio-picture {
+  width: 216px;
+  height: 162px;
+  border-radius: 13px;
+  box-sizing: border-box;
+}
